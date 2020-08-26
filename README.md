@@ -1,6 +1,6 @@
 # Soundpool API Demo
 
-This is an experiment to create a simply loading manager for the Soundpool API in Android, which handles the process of loading and playing sounds.
+This is an experiment to create a simple loading manager for the Soundpool API in Android, which handles the process of loading and playing sounds.
 
 Soundpool requires all sounds files to be 'loaded' before they can be used.
 
