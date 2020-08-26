@@ -1,4 +1,4 @@
-# Sound Pool Demo
+# Soundpool API Demo
 
 This is an experiment to create a simply loading manager for the Soundpool API in Android, which handles the process of loading and playing sounds.
 
