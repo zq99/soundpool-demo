@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SoundPool Example</string>
+    <string name="waiting">Waiting for sounds to load!</string>
+    <string name="complete">Loading Complete!</string>
+    <string name="random">Play a random sound</string>
+    <string name="go_to_play_screen">Go to Play Sound Screen</string>
+    <string name="end_loading_time">End time:</string>
+    <string name="start_loading_time">Start time:</string>
+    <string name="progress">SoundPool Status:</string>
+</resources>
