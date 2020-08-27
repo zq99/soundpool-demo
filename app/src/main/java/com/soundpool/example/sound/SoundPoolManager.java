@@ -100,9 +100,9 @@ public class SoundPoolManager {
         this.soundIds = new int[soundFiles.getFileCount()];
         int counter=1;
 
-        for(int fileNumber=1;fileNumber<=soundFiles.getFileCount();fileNumber++){
-            int fileId = soundFiles.getFileId(fileNumber);
-            this.soundIds[fileNumber] = this.soundPool.load(this.context, fileId, 1);
+        for(int n=1;n<=soundFiles.getFileCount();n++){
+            int fileId = soundFiles.getFileId(n);
+            this.soundIds[n] = this.soundPool.load(this.context, fileId, 1);
             counter++;
             Log.i(TAG,"loading file number:" + counter);
             this.soundPool.setOnLoadCompleteListener((soundPool, i, i1) -> {
